@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropwise — Smart Garden Watering</title>
+  <meta name="description" content="Dropwise tells you when and how much to water your plants. Save water, money, and the environment with data-driven watering schedules.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%234ade80' d='M12 2C9.5 8 4 10.5 4 15c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.5-5.5-7-8-13z'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ============== NAVBAR ============== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo" aria-label="Dropwise home">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2C9.5 8 4 10.5 4 15c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.5-5.5-7-8-13z" fill="#4ade80"/>
+        </svg>
+        <span class="logo-text">Dropwise</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#preview" class="nav-link">Preview</a>
+      </div>
+      <a href="#" class="nav-cta btn-sm">Open App</a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============== HERO ============== -->
+  <section id="hero" class="hero">
+    <div class="hero-grid">
+      <div class="hero-content reveal">
+        <span class="badge">Open Source &middot; Free Forever</span>
+        <h1 class="hero-title">
+          <span class="hero-line">Water Smarter.</span>
+          <span class="hero-line accent">Grow Better.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Dropwise uses real weather data and plant science to tell you exactly when and how much to water. Save water, save money, and help the planet — all from one simple web app.
+        </p>
+        <div class="hero-actions">
+          <a href="#" class="btn-primary">Try Dropwise Free</a>
+          <a href="#features" class="btn-secondary">
+            Learn More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <p class="hero-note">No sign-up required. 100% free and open source.</p>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="placeholder hero-placeholder" data-label="Hero Illustration — 800×480px" data-size="800×480" data-format="PNG or SVG">
+          <svg class="placeholder-svg" viewBox="0 0 200 140" fill="none">
+            <rect x="30" y="20" width="120" height="80" rx="8" stroke="#4ade80" stroke-width="1.5" fill="none" opacity="0.4"/>
+            <rect x="38" y="28" width="50" height="24" rx="4" fill="#4ade80" opacity="0.15"/>
+            <rect x="38" y="58" width="104" height="30" rx="4" fill="#4ade80" opacity="0.08"/>
+            <circle cx="92" cy="106" r="12" fill="#4ade80" opacity="0.2"/>
+            <path d="M86 106h12M92 100v12" stroke="#4ade80" stroke-width="2"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FEATURES ============== -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title reveal">Why Dropwise?</h2>
+      <p class="section-subtitle reveal">Four ways Dropwise makes a difference — for your garden and the planet.</p>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C9.5 8 4 10.5 4 15c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.5-5.5-7-8-13z" fill="#4ade80" opacity="0.8"/></svg>
+          </div>
+          <h3 class="feature-title">Save Water</h3>
+          <p class="feature-desc">Data-driven schedules based on local weather, soil type, and plant species mean you never overwater again. Water usage drops by up to <strong>40%</strong>.</p>
+          <div class="placeholder placeholder-sm" data-label="Feature Graphic — 400×300px" data-size="400×300" data-format="PNG or SVG"></div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#4ade80" stroke-width="2" fill="none"/><text x="12" y="16" text-anchor="middle" fill="#4ade80" font-size="10" font-family="sans-serif">$</text></svg>
+          </div>
+          <h3 class="feature-title">Save Money</h3>
+          <p class="feature-desc">Less water means lower utility bills. The average home garden saves over <strong>$200 per year</strong> just by watering at the right time, in the right amount.</p>
+          <div class="placeholder placeholder-sm" data-label="Feature Graphic — 400×300px" data-size="400×300" data-format="PNG or SVG"></div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M17 8C8 10 5 20 2 20h20c0-2-4-6-5-12zM12 2v6" stroke="#4ade80" stroke-width="1.5" fill="none"/><circle cx="12" cy="4" r="2" fill="#4ade80"/></svg>
+          </div>
+          <h3 class="feature-title">Save the Environment</h3>
+          <p class="feature-desc">Overwatering causes runoff that carries fertilizers and pesticides into waterways. Precise watering protects local ecosystems and conserves a precious resource.</p>
+          <div class="placeholder placeholder-sm" data-label="Feature Graphic — 400×300px" data-size="400×300" data-format="PNG or SVG"></div>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#4ade80" stroke-width="1.5" fill="none"/><ellipse cx="12" cy="12" rx="4" ry="7" fill="#4ade80" opacity="0.15"/><line x1="12" y1="2" x2="12" y2="6" stroke="#4ade80" stroke-width="1.5"/><line x1="12" y1="18" x2="12" y2="22" stroke="#4ade80" stroke-width="1.5"/><line x1="2" y1="12" x2="6" y2="12" stroke="#4ade80" stroke-width="1.5"/><line x1="18" y1="12" x2="22" y2="12" stroke="#4ade80" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="feature-title">Save the Climate</h3>
+          <p class="feature-desc">Pumping, treating, and heating water consumes energy and produces CO₂. Every gallon saved reduces your carbon footprint. Small changes, big impact.</p>
+          <div class="placeholder placeholder-sm" data-label="Feature Graphic — 400×300px" data-size="400×300" data-format="PNG or SVG"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== HOW IT WORKS ============== -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <h2 class="section-title reveal">How It Works</h2>
+      <p class="section-subtitle reveal">Three simple steps to smarter watering. No hardware, no installation — just your browser.</p>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-badge">
+            <span class="step-number">1</span>
+          </div>
+          <div class="placeholder placeholder-md" data-label="Step 1 Screenshot — 500×350px" data-size="500×350" data-format="PNG">
+            <svg class="placeholder-svg" viewBox="0 0 160 100" fill="none">
+              <rect x="20" y="10" width="120" height="70" rx="6" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.4"/>
+              <rect x="30" y="20" width="50" height="8" rx="2" fill="#4ade80" opacity="0.2"/>
+              <rect x="30" y="34" width="80" height="6" rx="2" fill="#4ade80" opacity="0.12"/>
+              <rect x="30" y="46" width="70" height="6" rx="2" fill="#4ade80" opacity="0.1"/>
+            </svg>
+          </div>
+          <h3 class="step-title">Enter Your Garden</h3>
+          <p class="step-desc">Tell Dropwise about your plants, soil type, and garden size. It automatically pulls hyperlocal weather data for your area — no sensors needed.</p>
+        </div>
+
+        <div class="step reveal">
+          <div class="step-badge">
+            <span class="step-number">2</span>
+            <svg class="step-connector" viewBox="0 0 2 40" width="2" height="40"></svg>
+          </div>
+          <div class="placeholder placeholder-md" data-label="Step 2 Screenshot — 500×350px" data-size="500×350" data-format="PNG">
+            <svg class="placeholder-svg" viewBox="0 0 160 100" fill="none">
+              <rect x="20" y="10" width="120" height="70" rx="6" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.4"/>
+              <circle cx="50" cy="40" r="15" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="1"/>
+              <line x1="65" y1="40" x2="120" y2="40" stroke="#4ade80" stroke-width="2" opacity="0.3"/>
+              <rect x="80" y="30" width="20" height="6" rx="3" fill="#4ade80" opacity="0.3"/>
+              <rect x="80" y="44" width="35" height="4" rx="2" fill="#4ade80" opacity="0.15"/>
+            </svg>
+          </div>
+          <h3 class="step-title">Get Your Schedule</h3>
+          <p class="step-desc">Dropwise calculates the optimal watering schedule based on plant needs, soil moisture, upcoming rainfall, temperature, and evaporation rates. Updated daily.</p>
+        </div>
+
+        <div class="step reveal">
+          <div class="step-badge">
+            <span class="step-number">3</span>
+          </div>
+          <div class="placeholder placeholder-md" data-label="Step 3 Screenshot — 500×350px" data-size="500×350" data-format="PNG">
+            <svg class="placeholder-svg" viewBox="0 0 160 100" fill="none">
+              <rect x="20" y="10" width="120" height="70" rx="6" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.4"/>
+              <rect x="35" y="20" width="15" height="30" rx="3" fill="#4ade80" opacity="0.2"/>
+              <rect x="55" y="20" width="15" height="30" rx="3" fill="#4ade80" opacity="0.15"/>
+              <rect x="75" y="12" width="15" height="38" rx="3" fill="#4ade80" opacity="0.25"/>
+              <rect x="95" y="20" width="15" height="30" rx="3" fill="#4ade80" opacity="0.15"/>
+            </svg>
+          </div>
+          <h3 class="step-title">Water &amp; Track</h3>
+          <p class="step-desc">Follow the daily plan. Mark tasks as done and track your water savings over time. Watch your garden thrive while your water bill shrinks — week after week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== APP PREVIEW ============== -->
+  <section id="preview" class="preview">
+    <div class="container">
+      <h2 class="section-title reveal">See Dropwise in Action</h2>
+      <p class="section-subtitle reveal">A beautiful, intuitive dashboard — no downloads, no setup. Just open your browser and go.</p>
+
+      <div class="mockup-wrapper reveal">
+        <div class="mockup-frame">
+          <div class="mockup-titlebar">
+            <span class="mockup-dot"></span>
+            <span class="mockup-dot"></span>
+            <span class="mockup-dot"></span>
+            <span class="mockup-url">app.dropwise.dev/dashboard</span>
+          </div>
+          <div class="placeholder placeholder-lg" data-label="App Screenshot — 1000×600px" data-size="1000×600" data-format="PNG">
+            <svg class="placeholder-svg" viewBox="0 0 300 180" fill="none">
+              <rect x="15" y="15" width="270" height="60" rx="8" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.3"/>
+              <rect x="15" y="90" width="130" height="75" rx="8" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.25"/>
+              <rect x="155" y="90" width="130" height="75" rx="8" stroke="#4ade80" stroke-width="1" fill="none" opacity="0.25"/>
+              <rect x="25" y="25" width="30" height="15" rx="3" fill="#4ade80" opacity="0.2"/>
+              <rect x="65" y="25" width="80" height="6" rx="3" fill="#4ade80" opacity="0.1"/>
+              <rect x="65" y="38" width="60" height="6" rx="3" fill="#4ade80" opacity="0.08"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-cta reveal">
+        <a href="#" class="btn-primary btn-lg">Launch Dropwise Now</a>
+        <p class="preview-note">Free · Open Source · No Account Required</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2C9.5 8 4 10.5 4 15c0 4.4 3.6 8 8 8s8-3.6 8-8c0-4.5-5.5-7-8-13z" fill="#4ade80"/>
+            </svg>
+            <span class="logo-text">Dropwise</span>
+          </a>
+          <p class="footer-tagline">Smart watering for a smarter planet.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="https://github.com/Bqckfi1sh/Dropwise" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>MIT License &middot; 2026 Dropwise</span>
+        <span>Made for gardens, built for the planet</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
