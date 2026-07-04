@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="globeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <clipPath id="globeClip"><circle cx="200" cy="120" r="65"/></clipPath>
+  </defs>
+
+  <rect width="400" height="300" fill="#0a0a0a"/>
+
+  <!-- Grid dots -->
+  <g opacity="0.08" fill="#4ade80">
+    <circle cx="20" cy="20" r="1"/><circle cx="60" cy="20" r="1"/><circle cx="100" cy="20" r="1"/><circle cx="140" cy="20" r="1"/><circle cx="180" cy="20" r="1"/><circle cx="220" cy="20" r="1"/><circle cx="260" cy="20" r="1"/><circle cx="300" cy="20" r="1"/><circle cx="340" cy="20" r="1"/><circle cx="380" cy="20" r="1"/>
+    <circle cx="20" cy="60" r="1"/><circle cx="60" cy="60" r="1"/><circle cx="100" cy="60" r="1"/><circle cx="140" cy="60" r="1"/><circle cx="180" cy="60" r="1"/><circle cx="220" cy="60" r="1"/><circle cx="260" cy="60" r="1"/><circle cx="300" cy="60" r="1"/><circle cx="340" cy="60" r="1"/><circle cx="380" cy="60" r="1"/>
+    <circle cx="20" cy="100" r="1"/><circle cx="60" cy="100" r="1"/><circle cx="100" cy="100" r="1"/><circle cx="140" cy="100" r="1"/><circle cx="180" cy="100" r="1"/><circle cx="220" cy="100" r="1"/><circle cx="260" cy="100" r="1"/><circle cx="300" cy="100" r="1"/><circle cx="340" cy="100" r="1"/><circle cx="380" cy="100" r="1"/>
+    <circle cx="20" cy="140" r="1"/><circle cx="60" cy="140" r="1"/><circle cx="100" cy="140" r="1"/><circle cx="140" cy="140" r="1"/><circle cx="180" cy="140" r="1"/><circle cx="220" cy="140" r="1"/><circle cx="260" cy="140" r="1"/><circle cx="300" cy="140" r="1"/><circle cx="340" cy="140" r="1"/><circle cx="380" cy="140" r="1"/>
+    <circle cx="20" cy="180" r="1"/><circle cx="60" cy="180" r="1"/><circle cx="100" cy="180" r="1"/><circle cx="140" cy="180" r="1"/><circle cx="180" cy="180" r="1"/><circle cx="220" cy="180" r="1"/><circle cx="260" cy="180" r="1"/><circle cx="300" cy="180" r="1"/><circle cx="340" cy="180" r="1"/><circle cx="380" cy="180" r="1"/>
+    <circle cx="20" cy="220" r="1"/><circle cx="60" cy="220" r="1"/><circle cx="100" cy="220" r="1"/><circle cx="140" cy="220" r="1"/><circle cx="180" cy="220" r="1"/><circle cx="220" cy="220" r="1"/><circle cx="260" cy="220" r="1"/><circle cx="300" cy="220" r="1"/><circle cx="340" cy="220" r="1"/><circle cx="380" cy="220" r="1"/>
+    <circle cx="20" cy="260" r="1"/><circle cx="60" cy="260" r="1"/><circle cx="100" cy="260" r="1"/><circle cx="140" cy="260" r="1"/><circle cx="180" cy="260" r="1"/><circle cx="220" cy="260" r="1"/><circle cx="260" cy="260" r="1"/><circle cx="300" cy="260" r="1"/><circle cx="340" cy="260" r="1"/><circle cx="380" cy="260" r="1"/>
+  </g>
+
+  <!-- Glow -->
+  <circle cx="200" cy="120" r="100" fill="rgba(74,222,128,0.06)"/>
+
+  <!-- Globe -->
+  <circle cx="200" cy="120" r="65" fill="none" stroke="#4ade80" stroke-width="2" opacity="0.5"/>
+  <!-- Latitude lines -->
+  <ellipse cx="200" cy="120" rx="65" ry="20" fill="none" stroke="#4ade80" stroke-width="0.8" opacity="0.2"/>
+  <ellipse cx="200" cy="120" rx="65" ry="45" fill="none" stroke="#4ade80" stroke-width="0.8" opacity="0.15"/>
+  <!-- Longitude lines -->
+  <ellipse cx="200" cy="120" rx="20" ry="65" fill="none" stroke="#4ade80" stroke-width="0.8" opacity="0.2"/>
+  <ellipse cx="200" cy="120" rx="45" ry="65" fill="none" stroke="#4ade80" stroke-width="0.8" opacity="0.15"/>
+  <!-- Vertical line -->
+  <line x1="200" y1="55" x2="200" y2="185" stroke="#4ade80" stroke-width="0.8" opacity="0.15"/>
+  <!-- Horizontal line -->
+  <line x1="135" y1="120" x2="265" y2="120" stroke="#4ade80" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- Green continent shapes (simplified) -->
+  <g clip-path="url(#globeClip)" opacity="0.25">
+    <ellipse cx="190" cy="105" rx="20" ry="25" fill="#4ade80" transform="rotate(-10 190 105)"/>
+    <ellipse cx="215" cy="130" rx="15" ry="20" fill="#4ade80" transform="rotate(15 215 130)"/>
+    <ellipse cx="175" cy="135" rx="12" ry="10" fill="#4ade80"/>
+  </g>
+
+  <!-- CO2 cloud shrinking -->
+  <g transform="translate(310, 80)" opacity="0.3">
+    <circle cx="0" cy="0" r="12" fill="#666"/>
+    <circle cx="10" cy="-3" r="8" fill="#666"/>
+    <circle cx="-8" cy="-2" r="9" fill="#666"/>
+    <text x="2" y="4" font-family="sans-serif" font-size="8" fill="#fff" text-anchor="middle" font-weight="600">CO₂</text>
+  </g>
+
+  <!-- Down arrow -->
+  <g transform="translate(310, 110)" opacity="0.3">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="#4ade80" stroke-width="2" stroke-linecap="round"/>
+    <polyline points="-5,22 0,32 5,22" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Small text -->
+  <text x="200" y="220" font-family="sans-serif" font-size="13" font-weight="600" fill="#4ade80" text-anchor="middle" opacity="0.5">Lower carbon footprint</text>
+  <text x="200" y="240" font-family="sans-serif" font-size="10" fill="#888" text-anchor="middle">Every gallon saved = energy saved</text>
+</svg>

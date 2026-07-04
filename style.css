@@ -348,6 +348,32 @@ img { max-width: 100%; display: block; }
   min-height: 300px;
 }
 
+/* ---------- Real Images ---------- */
+.hero-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+.feature-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.step-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.dashboard-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 0 12px 12px;
+}
+
 /* ---------- Features ---------- */
 .features {
   padding: 6rem 0;

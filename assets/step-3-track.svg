@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#0a0a0a"/>
+
+  <!-- Grid dots -->
+  <g opacity="0.06" fill="#4ade80">
+    <circle cx="20" cy="20" r="1"/><circle cx="60" cy="20" r="1"/><circle cx="100" cy="20" r="1"/><circle cx="140" cy="20" r="1"/><circle cx="180" cy="20" r="1"/><circle cx="220" cy="20" r="1"/><circle cx="260" cy="20" r="1"/><circle cx="300" cy="20" r="1"/><circle cx="340" cy="20" r="1"/><circle cx="380" cy="20" r="1"/><circle cx="420" cy="20" r="1"/><circle cx="460" cy="20" r="1"/>
+    <circle cx="20" cy="60" r="1"/><circle cx="60" cy="60" r="1"/><circle cx="100" cy="60" r="1"/><circle cx="140" cy="60" r="1"/><circle cx="180" cy="60" r="1"/><circle cx="220" cy="60" r="1"/><circle cx="260" cy="60" r="1"/><circle cx="300" cy="60" r="1"/><circle cx="340" cy="60" r="1"/><circle cx="380" cy="60" r="1"/><circle cx="420" cy="60" r="1"/><circle cx="460" cy="60" r="1"/>
+    <circle cx="20" cy="100" r="1"/><circle cx="60" cy="100" r="1"/><circle cx="100" cy="100" r="1"/><circle cx="140" cy="100" r="1"/><circle cx="180" cy="100" r="1"/><circle cx="220" cy="100" r="1"/><circle cx="260" cy="100" r="1"/><circle cx="300" cy="100" r="1"/><circle cx="340" cy="100" r="1"/><circle cx="380" cy="100" r="1"/><circle cx="420" cy="100" r="1"/><circle cx="460" cy="100" r="1"/>
+    <circle cx="20" cy="140" r="1"/><circle cx="60" cy="140" r="1"/><circle cx="100" cy="140" r="1"/><circle cx="140" cy="140" r="1"/><circle cx="180" cy="140" r="1"/><circle cx="220" cy="140" r="1"/><circle cx="260" cy="140" r="1"/><circle cx="300" cy="140" r="1"/><circle cx="340" cy="140" r="1"/><circle cx="380" cy="140" r="1"/><circle cx="420" cy="140" r="1"/><circle cx="460" cy="140" r="1"/>
+    <circle cx="20" cy="180" r="1"/><circle cx="60" cy="180" r="1"/><circle cx="100" cy="180" r="1"/><circle cx="140" cy="180" r="1"/><circle cx="180" cy="180" r="1"/><circle cx="220" cy="180" r="1"/><circle cx="260" cy="180" r="1"/><circle cx="300" cy="180" r="1"/><circle cx="340" cy="180" r="1"/><circle cx="380" cy="180" r="1"/><circle cx="420" cy="180" r="1"/><circle cx="460" cy="180" r="1"/>
+    <circle cx="20" cy="220" r="1"/><circle cx="60" cy="220" r="1"/><circle cx="100" cy="220" r="1"/><circle cx="140" cy="220" r="1"/><circle cx="180" cy="220" r="1"/><circle cx="220" cy="220" r="1"/><circle cx="260" cy="220" r="1"/><circle cx="300" cy="220" r="1"/><circle cx="340" cy="220" r="1"/><circle cx="380" cy="220" r="1"/><circle cx="420" cy="220" r="1"/><circle cx="460" cy="220" r="1"/>
+    <circle cx="20" cy="260" r="1"/><circle cx="60" cy="260" r="1"/><circle cx="100" cy="260" r="1"/><circle cx="140" cy="260" r="1"/><circle cx="180" cy="260" r="1"/><circle cx="220" cy="260" r="1"/><circle cx="260" cy="260" r="1"/><circle cx="300" cy="260" r="1"/><circle cx="340" cy="260" r="1"/><circle cx="380" cy="260" r="1"/><circle cx="420" cy="260" r="1"/><circle cx="460" cy="260" r="1"/>
+    <circle cx="20" cy="300" r="1"/><circle cx="60" cy="300" r="1"/><circle cx="100" cy="300" r="1"/><circle cx="140" cy="300" r="1"/><circle cx="180" cy="300" r="1"/><circle cx="220" cy="300" r="1"/><circle cx="260" cy="300" r="1"/><circle cx="300" cy="300" r="1"/><circle cx="340" cy="300" r="1"/><circle cx="380" cy="300" r="1"/><circle cx="420" cy="300" r="1"/><circle cx="460" cy="300" r="1"/>
+  </g>
+
+  <!-- Browser frame -->
+  <rect x="50" y="30" width="400" height="290" rx="10" fill="#111" stroke="#333" stroke-width="1.5"/>
+  <rect x="50" y="30" width="400" height="32" rx="10" fill="#1a1a1a"/>
+  <rect x="50" y="50" width="400" height="12" fill="#1a1a1a"/>
+  <circle cx="72" cy="46" r="5" fill="#ff5f57"/>
+  <circle cx="92" cy="46" r="5" fill="#febc2e"/>
+  <circle cx="112" cy="46" r="5" fill="#28c840"/>
+  <rect x="130" y="40" width="280" height="14" rx="7" fill="#111"/>
+  <text x="270" y="50" font-family="monospace" font-size="7" fill="#666" text-anchor="middle">app.dropwise.dev/stats</text>
+
+  <!-- Header -->
+  <text x="80" y="85" font-family="sans-serif" font-size="12" font-weight="700" fill="#fff" opacity="0.85">Your Water Savings</text>
+  <text x="80" y="100" font-family="sans-serif" font-size="8" fill="#888">Last 6 months</text>
+
+  <!-- Stats cards -->
+  <rect x="80" y="110" width="100" height="40" rx="6" fill="#161616" stroke="#4ade80" stroke-width="0.5" opacity="0.5"/>
+  <text x="92" y="128" font-family="sans-serif" font-size="7" fill="#888">Water Saved</text>
+  <text x="92" y="142" font-family="sans-serif" font-size="12" font-weight="700" fill="#4ade80">1,240 gal</text>
+
+  <rect x="195" y="110" width="100" height="40" rx="6" fill="#161616" stroke="#4ade80" stroke-width="0.5" opacity="0.5"/>
+  <text x="207" y="128" font-family="sans-serif" font-size="7" fill="#888">Money Saved</text>
+  <text x="207" y="142" font-family="sans-serif" font-size="12" font-weight="700" fill="#4ade80">$186</text>
+
+  <rect x="310" y="110" width="100" height="40" rx="6" fill="#161616" stroke="#4ade80" stroke-width="0.5" opacity="0.5"/>
+  <text x="322" y="128" font-family="sans-serif" font-size="7" fill="#888">Waterings</text>
+  <text x="322" y="142" font-family="sans-serif" font-size="12" font-weight="700" fill="#4ade80">47 Done</text>
+
+  <!-- Bar chart -->
+  <!-- Axis -->
+  <line x1="90" y1="270" x2="420" y2="270" stroke="#333" stroke-width="1"/>
+  <line x1="90" y1="170" x2="90" y2="270" stroke="#333" stroke-width="1"/>
+
+  <!-- Bars -->
+  <rect x="105" y="220" width="30" height="50" rx="3" fill="#4ade80" opacity="0.3"/>
+  <rect x="155" y="200" width="30" height="70" rx="3" fill="#4ade80" opacity="0.35"/>
+  <rect x="205" y="185" width="30" height="85" rx="3" fill="#4ade80" opacity="0.4"/>
+  <rect x="255" y="195" width="30" height="75" rx="3" fill="#4ade80" opacity="0.45"/>
+  <rect x="305" y="175" width="30" height="95" rx="3" fill="#4ade80" opacity="0.55"/>
+  <rect x="355" y="165" width="30" height="105" rx="3" fill="#4ade80" opacity="0.7"/>
+
+  <!-- Labels -->
+  <text x="120" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">Jan</text>
+  <text x="170" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">Feb</text>
+  <text x="220" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">Mar</text>
+  <text x="270" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">Apr</text>
+  <text x="320" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">May</text>
+  <text x="370" y="285" font-family="sans-serif" font-size="7" fill="#888" text-anchor="middle">Jun</text>
+
+  <!-- Trend line -->
+  <polyline points="120,218 170,198 220,183 270,193 320,173 370,163" fill="none" stroke="#4ade80" stroke-width="1.5" opacity="0.5" stroke-dasharray="4 2"/>
+</svg>
